@@ -1,0 +1,38 @@
+.best-coffee-wrapper {
+  background-size: cover;
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+  
+  .best-coffee-content {
+    padding: 59px 591px 59px 59px;
+    text-align: center;
+    color: #fff;
+    
+    .best-coffee-title{
+      font-family: 'Playfair Display', sans-serif;
+      font-size: 37px;
+      
+    }
+
+    .best-coffee-icons-wrapper {
+      display: flex;
+      justify-content: center;
+      
+      .best-coffee-icon {
+        padding: 50px;
+        
+        h3{
+          font-family: 'Playfair Display', sans-serif;
+          color: #daa37f;
+        }
+      }
+    }
+    
+    p{
+      text-align: left;
+      font-family: 'Nunito', sans-serif;
+      font-size: 15px;
+    }
+  }
+}

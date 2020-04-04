@@ -1,0 +1,41 @@
+.blog-card-wrapper {
+  background-color: white;
+  width: 343px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 15px;
+
+  .blog-card-img {
+    background-size: cover;
+    height: 300px;
+  }
+
+  .blog-card-content {
+    padding: 30px;
+    
+    h3 {
+      font-family: "Playfair Display", sans-serif;
+      font-size: 21px;
+      font-weight: 500;
+      margin-top: 0;
+      margin-bottom: 0;
+      cursor: pointer;
+    }
+
+    h5 {
+      margin-top: 10px;
+      font-family: "Nunito", sans-serif;
+      font-weight: 500;
+      color: grey;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: "Nunito", sans-serif;
+      color: grey;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 25px;
+    }
+  }
+}

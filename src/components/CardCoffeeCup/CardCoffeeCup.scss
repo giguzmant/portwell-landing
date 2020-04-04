@@ -1,0 +1,39 @@
+.coffeecups-wrapper {
+  background-size: cover;
+  flex-direction: column;
+  padding: 59px 59px 231px;
+
+  .cup-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px;
+
+    .cup-img {
+      display: flex;
+      justify-content: center;
+      
+      img {
+        width: 250px;
+      }
+    }
+
+    .cup-info-wrapper {
+      text-align: center;
+      
+      .cup-title {
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .cup-info {
+        font-family: "Nunito", sans-serif;
+        font-size: 15px;
+        color: grey;
+      }
+    }
+  }
+}

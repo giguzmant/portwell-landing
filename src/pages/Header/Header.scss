@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap");
+
+.hero-parallax {
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  width: 100%;
+  
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    .hero-title {
+      color: #fff;
+      font-family: "Playfair Display", sans-serif;
+      font-size: 56px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      margin-bottom: 0;
+    }
+  
+    .hero-subtitle {
+      color: #fff;
+      font-family: "Nunito", sans-serif;
+    }    
+  }
+}

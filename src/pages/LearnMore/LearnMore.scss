@@ -1,0 +1,60 @@
+.learnmore-fresh-wrapper {
+  display: flex;
+
+  .learnmore-fresh-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 150px;
+    box-sizing: border-box;
+  }
+
+  .learnmore-fresh-img {
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50%;
+  }
+}
+
+.learnmore-great-wrapper {
+  height: 600px;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+
+  .learnmore-great-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 36%;
+    padding: 100px;
+  }
+}
+
+.learnmore-title {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.learnmore-info {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  color: grey;
+  line-height: 20px;
+}
+
+.learnmore-link {
+  text-decoration: none;
+  color: black;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
