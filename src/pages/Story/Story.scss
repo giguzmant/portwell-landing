@@ -2,8 +2,10 @@
   background-color: #1d140b;
   
   .story-img {
-    background-size: cover;
     height: 720px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
   
 }

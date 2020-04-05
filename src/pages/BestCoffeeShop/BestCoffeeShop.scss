@@ -1,8 +1,11 @@
 .best-coffee-wrapper {
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     height: 650px;
     flex-direction: column;
+    width: 100%;
   
   .best-coffee-content {
     padding: 59px 591px 59px 59px;

@@ -1,0 +1,15 @@
+.social-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 30px;
+  
+  i{
+    cursor: pointer;
+    
+    &:hover{
+      color: #dca47d;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

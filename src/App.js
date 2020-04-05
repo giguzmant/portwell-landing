@@ -6,9 +6,10 @@ import LearnMore from './pages/LearnMore/LearnMore';
 import BestCoffeeShop from './pages/BestCoffeeShop/BestCoffeeShop';
 import Gallery from './pages/Gallery/Gallery';
 import Blog from './pages/Blog/Blog';
+import Footer from './pages/Footer/Footer';
 
 const App = () => (
-  <div>
+  <>
     <Header />
     <CoffeeCups />
     <Story />
@@ -16,7 +17,8 @@ const App = () => (
     <BestCoffeeShop />
     <Gallery />
     <Blog />
-  </div>
+    <Footer />
+  </>
 )
 
 export default App;

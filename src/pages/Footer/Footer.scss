@@ -1,0 +1,42 @@
+.footer-wrapper{
+  display: flex;
+  flex-direction: row;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1d140b;
+  justify-content: space-around;
+  padding: 59px;
+
+  .footer-hours {
+    box-sizing: border-box;
+    color: #ebebeb;
+    
+    h2{
+      font-family: 'Playfair Display', sans-serif;
+      color: #dca47d;
+      cursor: pointer;
+    }
+  }
+  
+  .footer-contact {
+    color: #ebebeb;
+    
+    h2{
+      font-family: 'Playfair Display', sans-serif;
+      color: #dca47d;
+      cursor: pointer;
+    }
+  }
+  
+  .footer-social {
+    color: #ebebeb;
+    
+    h2{
+      font-family: 'Playfair Display', sans-serif;
+      color: #dca47d;
+      cursor: pointer;
+    }
+  }
+}
