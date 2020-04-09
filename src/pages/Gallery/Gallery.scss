@@ -1,12 +1,30 @@
+@import "../../scss/common/mixins";
+
 .gallery-wrapper {
   display: flex;
   flex-direction: row;
-  
+
+  @include tablet {
+    flex-direction: column;
+  }
+
+  @include phone {
+    flex-direction: column;
+  }
+
   .gallery-image {
     background-size: cover;
     overflow: hidden;
     width: 34%;
     background-position: center;
     height: 400px;
+
+    @include tablet {
+      width: unset;
+    }
+
+    @include phone {
+      width: unset;
+    }
   }
 }

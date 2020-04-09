@@ -1,28 +1,44 @@
+@import '../../scss/common/mixins';
+
 .footer-wrapper{
   display: flex;
   flex-direction: row;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #1d140b;
   justify-content: space-around;
   padding: 59px;
 
+  @include tablet {
+    flex-direction: column;
+  }
+  
   .footer-hours {
     box-sizing: border-box;
     color: #ebebeb;
+    
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     
     h2{
       font-family: 'Playfair Display', sans-serif;
       color: #dca47d;
       cursor: pointer;
     }
+    
+  
   }
   
   .footer-contact {
     color: #ebebeb;
+    text-align: center;
     
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     h2{
       font-family: 'Playfair Display', sans-serif;
       color: #dca47d;
@@ -32,7 +48,13 @@
   
   .footer-social {
     color: #ebebeb;
+    text-align: center;
     
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     h2{
       font-family: 'Playfair Display', sans-serif;
       color: #dca47d;

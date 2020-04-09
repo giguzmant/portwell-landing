@@ -1,11 +1,33 @@
+@import '../../scss/common/mixins';
+
 .story-header-wrapper {
   background-color: #1d140b;
   
+  .story-header {
+    color: #fff;
+    padding: 59px;
+    
+    @include tablet {
+      padding-bottom: 0;
+    }
+    
+    @include phone {
+      padding-bottom: 0;
+    }
+  }
   .story-img {
     height: 720px;
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    @include tablet {
+      height: 479px;
+    }
+    @include phone {
+      height: 479px;
+    }
+    
   }
   
 }

@@ -7,6 +7,7 @@ import BestCoffeeShop from './pages/BestCoffeeShop/BestCoffeeShop';
 import Gallery from './pages/Gallery/Gallery';
 import Blog from './pages/Blog/Blog';
 import Footer from './pages/Footer/Footer';
+import Nav from './components/Nav/Nav';
 
 const App = () => (
   <>

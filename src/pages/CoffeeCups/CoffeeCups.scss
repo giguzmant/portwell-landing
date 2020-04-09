@@ -1,8 +1,19 @@
+@import '../../scss/common/mixins';
+
 .coffeecups-cards-wrapper {
   display: flex;
   justify-content: center;
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
+  @include tablet {
+    flex-direction: column;
+    align-items: center;
+  }
+  @include phone {
+    flex-direction: column;
+    align-items: center;
+
+  }
 }

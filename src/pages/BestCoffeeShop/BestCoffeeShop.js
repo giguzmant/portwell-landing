@@ -6,20 +6,20 @@ import Machine from '../../assets/icons/icon_3.png';
 import './BestCoffeeShop.scss';
 
 const BestCoffeeShop = () => (
-  <section className="best-coffee-wrapper" style={{backgroundImage: `url(${BestCoffeeImg})`}}>
+  <section className="best-coffee-wrapper" >
     <div className="best-coffee-content">
       <h1 className="best-coffee-title">THE BEST COFFEE SHOP</h1>
       <div className="best-coffee-icons-wrapper">
           <div className="best-coffee-icon">
-            <img src={Beans}/>
+            <img src={Beans} alt="Beans"/>
             <h3>BEANS</h3>
           </div>
           <div className="best-coffee-icon">
-            <img src={Milk}/>
+            <img src={Milk} alt="Milk"/>
             <h3>MILK</h3>
           </div>
           <div className="best-coffee-icon">
-            <img src={Machine}/>
+            <img src={Machine} alt="Machine"/>
             <h3>MACHINE</h3>
           </div>
       </div>

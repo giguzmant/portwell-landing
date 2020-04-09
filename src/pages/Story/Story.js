@@ -4,7 +4,7 @@ import './Story.scss';
 
 const Story = () => (
   <section className="story-header-wrapper">
-    <div className="header" style={{color: 'white'}}>
+    <div className="header story-header">
       <h1 className="title">OUR STORY</h1>
       <p className="content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
     </div>

@@ -1,13 +1,23 @@
+@import '../../scss/common/mixins';
+
 .blog-card-wrapper {
   background-color: white;
   width: 343px;
   overflow: hidden;
   border-radius: 15px;
   margin: 15px;
-
+  
+  @include tablet {
+    width: unset;
+  }
+  @include phone {
+    width: unset;
+  }
+  
   .blog-card-img {
     background-size: cover;
-    height: 300px;
+    height: 250px;
+    background-position: center;
   }
 
   .blog-card-content {

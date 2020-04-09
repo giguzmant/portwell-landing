@@ -1,6 +1,5 @@
 import Pour from './assets/images/pour_over.png';
 import Mocha from './assets/images/mocha.png';
-import Expresso from './assets/images/expresso.png';
 
 export default [{
     title: "MOCHA LATTE",

@@ -1,6 +1,9 @@
+@import "../../scss/common/mixins";
+
 .learnmore-fresh-wrapper {
   display: flex;
-
+  flex-direction: column;
+  
   .learnmore-fresh-content {
     display: flex;
     justify-content: center;
@@ -8,15 +11,34 @@
     width: 50%;
     padding: 150px;
     box-sizing: border-box;
+
+    @include tablet {
+      padding: 81px;
+      width: 100%;
+    }
+
+    @include phone {
+      padding: 81px;
+      width: 100%;
+    }
   }
 
   .learnmore-fresh-img {
-    height: 550px;
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column-reverse;
     width: 50%;
+    
+    @include tablet {
+      width: 100%;
+      height: 326px;
+    }
+
+    @include phone {
+      width: 100%;
+      height: 326px;
+    }
   }
 }
 
@@ -29,12 +51,30 @@
   display: flex;
   justify-content: flex-end;
 
+  @include tablet {
+    height: 326px;
+  }
+
+  @include phone {
+    height: 326px;
+  }
+
   .learnmore-great-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 36%;
+    width: 28%;
     padding: 100px;
+
+    @include tablet {
+      padding: 47px;
+      width: 50%;
+    }
+
+    @include phone {
+      padding: 47px;
+      width: 50%;
+    }
   }
 }
 
@@ -42,6 +82,7 @@
   font-family: "Playfair Display", sans-serif;
   font-size: 25px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .learnmore-info {

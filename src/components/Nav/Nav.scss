@@ -1,0 +1,26 @@
+.nav{
+  color: #fff;
+  display: flex;
+  padding: 15px;
+  
+  .nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    
+    li{
+      list-style: none;
+      
+      a{
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+      }
+    }
+    
+    
+  }
+}
